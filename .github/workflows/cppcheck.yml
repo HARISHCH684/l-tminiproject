@@ -22,4 +22,4 @@ jobs:
       - name: Install cppcheck
         run: sudo apt-get install cppcheck
       - name: Run cppcheck
-        run: 3_Implementation/Makefile/ cppcheck
+        run: cppcheck 3_Implementation/Makefile
