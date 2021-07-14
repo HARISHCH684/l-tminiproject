@@ -34,7 +34,7 @@
 3_Implimentation/src/vernem.c:4:6: style: The scope of the variable 'i' can be reduced. [variableScope]
  int i;
      ^
-3_Implimentation/test/test.c:67:6: style: The scope of the variable 'i' can be reduced. [variableScope]
+3_Implimentation/test/test.c:72:6: style: The scope of the variable 'i' can be reduced. [variableScope]
  int i;
      ^
 3_Implimentation/unity/unity.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 42 configurations. Use --force to check all configurations. [toomanyconfigs]
