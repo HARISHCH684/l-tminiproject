@@ -1,3 +1,8 @@
+/**
+ * @file test.c
+ * @brief contains all the test functions with expexted output by providing default input.
+ * @copyright Copyright (c) 2021
+ */
 #include "unity.h"
 #include "fun.h"
 #define PROJECT_NAME "Cryptography"
