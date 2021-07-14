@@ -28,7 +28,7 @@ int main(){
 		case 1: 
 			{
 			
-				printf("you have chosen vignere cipher\n");
+				printf("\n\n**************** Vignere Cipher ******************\n\n");
 				printf("\n Below are some of the guidelines to run the programme more accurately.\n");
 				printf("\n These guidelines are for those who are new to this:-");
 				printf(" 1.To encrypt vignere cipher you have to give the plain text which you wants to encrypt as a string.\n");
@@ -59,7 +59,7 @@ int main(){
 		case 2:
 			{
 			
-				printf("you have chosen vernem cipher :-\n");
+				printf("\n\n**************** Vernem Cipher ******************\n\n");
 				printf("\n Below are some of the guidelines to run the programme more accurately.\n");
 				printf("\n These guidelines are for those who are new to this:-");
 				printf(" 1.To encrypt vernem cipher you have to give the plain text which you wants to encrypt as a string.\n");
@@ -85,7 +85,7 @@ int main(){
 		case 3:
 			{
 			
-				printf("\nyou have chosen ceaser cipher\n");
+				printf("\n\n**************** Ceaser Cipher ******************\n\n");
 				printf("\n Below are some of the guidelines to run the programme more accurately.\n");
 				printf("\n These guidelines are for those who are new to this:-");
 				printf(" 1.To encrypt ceaser cipher you have to give the plain text which you wants to encrypt as a string.\n");
@@ -109,7 +109,7 @@ int main(){
 				break;
 			}
 		default :
-				printf("you choose none of the above\n");
+				printf("\n\n**************** None Of The Above ******************\n\n");
 						printf("\n------------------------------\n");
 						printf("\n press enter to exit\n");		
 			break;
