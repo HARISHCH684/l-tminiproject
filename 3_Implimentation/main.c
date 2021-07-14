@@ -5,10 +5,7 @@ int main(){
 	printf("\n ***************Welcome to the Cryptography Encryption Techniques******************\n");
 	printf("\n Cryptography deals mostly with encryption and decryption\n");
 	printf("\n Here we are going to perform some Encryption techniques :-\n");
-	system("pause");
-	system("cls");
-	home:
-	printf("Below are some of the encryption cipher tecniques:-\n");
+	printf("\nBelow are some of the encryption cipher tecniques:-\n");
 	printf("1:vignere cipher\n");
 	printf("2:vernem cipher\n");
 	printf("3:ceaser cipher\n");
@@ -46,13 +43,8 @@ int main(){
 						printf("\nEncrypted Message:\t%s", encrypted_message);
 						printf("\n------------------------------\n");
 						printf("\n------------------------------\n");
-						printf("\n\n\n press  H to choose another cipher\n");
-						printf("\n Or\n");
 						printf("\n press enter to exit\n");
-						if(toupper(getch())=='H'){
-							system("cls");
-							goto home;
-						}
+
 				break;
 			}
 		case 2:
@@ -77,13 +69,7 @@ int main(){
 						printf("\nKey:\t%s", key);
 						printf("\nencrypted msg:\t%s",encrypted_msg);
 						printf("\n------------------------------\n");
-						printf("\n\n\n press  H to choose another cipher\n");
-						printf("\n Or\n");
 						printf("\n press enter to exit\n");
-						if(toupper(getch())=='H'){
-							system("cls");
-							goto home;
-						}	
 				break;
 			}
 
@@ -110,25 +96,13 @@ int main(){
 						printf("\nyour encrypted text is:-");
 						printf("%s\n",encrypted_msg);
 						printf("\n------------------------------\n");
-						printf("\n\n\n press  H to choose another cipher\n");
-						printf("\n Or\n");
-						printf("\n press enter to exit\n");
-						if(toupper(getch())=='H'){
-							system("cls");
-							goto home;
-						}						
+						printf("\n press enter to exit\n");						
 				break;
 			}
 		default :
 				printf("you choose none of the above\n");
 						printf("\n------------------------------\n");
-						printf("\n\n\n press  H to choose another cipher\n");
-						printf("\n Or\n");
-						printf("\n press enter to exit\n");
-						if(toupper(getch())=='H'){
-							system("cls");
-							goto home;
-						}			
+						printf("\n press enter to exit\n");		
 			break;
 	}
 	return 0;

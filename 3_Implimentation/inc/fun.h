@@ -4,7 +4,6 @@
 #include<string.h>
 #include<stdlib.h>
 #include<ctype.h>
-#include<conio.h>
 
 char ceaser(char *string, int n, char *encrypted_msg);
 char vernem(char *str, char *key, char *encrypted_msg);
