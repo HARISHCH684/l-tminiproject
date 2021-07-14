@@ -1,3 +1,12 @@
+/**
+ * @file main.c
+ * @author 311305
+ * @brief main file has function calling
+ * @version 0.1
+ *
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include "fun.h"
 
 
