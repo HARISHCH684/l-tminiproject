@@ -1,22 +1,22 @@
-3_Implimentation/main.c:33:12: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+3_Implimentation/main.c:42:12: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
            fflush(stdin);
            ^
-3_Implimentation/main.c:36:12: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+3_Implimentation/main.c:45:12: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
            fflush(stdin);
            ^
-3_Implimentation/main.c:34:12: warning: scanf() without field width limits can crash with huge input data. [invalidscanf]
+3_Implimentation/main.c:43:12: warning: scanf() without field width limits can crash with huge input data. [invalidscanf]
            scanf("%[^\n]s", message);
            ^
-3_Implimentation/main.c:37:12: warning: scanf() without field width limits can crash with huge input data. [invalidscanf]
+3_Implimentation/main.c:46:12: warning: scanf() without field width limits can crash with huge input data. [invalidscanf]
            scanf("%[^\n]s", key);
            ^
-3_Implimentation/main.c:62:8: warning: scanf() without field width limits can crash with huge input data. [invalidscanf]
+3_Implimentation/main.c:71:8: warning: scanf() without field width limits can crash with huge input data. [invalidscanf]
        scanf("%s",str);
        ^
-3_Implimentation/main.c:64:8: warning: scanf() without field width limits can crash with huge input data. [invalidscanf]
+3_Implimentation/main.c:73:8: warning: scanf() without field width limits can crash with huge input data. [invalidscanf]
        scanf("%s",key);
        ^
-3_Implimentation/main.c:86:7: warning: scanf() without field width limits can crash with huge input data. [invalidscanf]
+3_Implimentation/main.c:95:7: warning: scanf() without field width limits can crash with huge input data. [invalidscanf]
       scanf("%s",string);
       ^
 3_Implimentation/src/ceaser.c:4:6: style: The scope of the variable 'i' can be reduced. [variableScope]
